@@ -6,6 +6,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold">Real Estate voice agent</h1>
         <p>Start by pressing the &quot;start a call&quot; below</p>
       </section>
+      {/* eslint-disable--line @typescript-eslint/ban-ts-comment @ts-ignore */}
       <elevenlabs-convai agent-id={agentId}></elevenlabs-convai>
       <script
         src="https://elevenlabs.io/convai-widget/index.js"
